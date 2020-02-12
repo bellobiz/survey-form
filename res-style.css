@@ -1,0 +1,204 @@
+@media (max-width: 1200px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 10%;
+    }
+    h1 {
+        font-size: 20px
+    }
+}
+  
+@media (max-width: 1045px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 20%;
+    }
+}
+  
+@media (max-width: 917px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 30%;
+    }
+}
+  
+@media (max-width: 841px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 40%;
+    }
+}
+  
+@media (max-width: 756px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 50%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+  
+@media (max-width: 685px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 60%;
+    }
+    h2 {
+        font-size: 15px
+    }
+}
+  
+@media (max-width: 626px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 70%;
+    }
+    h2 {
+        display: none
+    }
+}
+  
+@media (max-width: 581px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 80%;
+    }
+}
+  
+@media (max-width: 540px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 90%;
+    }
+}
+  
+@media (max-width: 504px) {
+    input[type="checkbox"],
+    input[type="radio"],
+    label[for="front-end"],
+    label[for="back-end"],
+    label[for="data-visualization"],
+    label[for="definitely"],
+    label[for="maybe"],
+    label[for="not-sure"] {
+      left: 0%;
+      top: 0px;
+    }
+}
+  
+@media (max-width: 877px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+    }
+}
+  
+@media (max-width: 617px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 120%;
+    }
+}
+  
+@media (max-width: 509px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 150%;
+    }
+}
+  
+@media (max-width: 413px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 200%;
+    }
+}
+  
+@media (max-width: 306px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 250%;
+    }
+}
+  
+@media (max-width: 250px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 300%;
+    }
+}
+  
+@media (max-width: 211px) {
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+      width: 310%;
+    }
+}
+  
+@media (max-width: 185px) {
+    body {
+      display: none;
+    }
+}

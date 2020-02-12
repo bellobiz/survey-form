@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src=""></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="res-style.css">
+</head>
+
+<body>
+  <h2>Survey Form</h2>
+  <form action="" method="post">
+
+    <p>Let us know how we can improve freeCodeCamp</p>
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" name="register" id="name" placeholder="Enter your name">
+      </li>
+      <li>
+        <label for="email">Email:</label>
+        <input type="email" name="register" id="email" placeholder="Enter your Email">
+      </li>
+      <li>
+        <label for="Age">Age:</label>
+        <input type="number" name="register" id="email" placeholder="Age">
+      </li>
+    </ul>
+    
+    
+    <div>
+      <label for="occupation">Which option best describes your current role?</label>
+      <select name="occupation" id="occupation">
+        <option value="student">Student</option>
+        <option value="layer">Lawyer</option>
+        <option value="farmer">Farmer</option>
+        <option value="teacher">Teacher</option>
+        <option value="doctor">Doctor</option>
+      </select>
+    </div>
+
+    <label>How likely is that you would recommend</label><br>
+    <label>freeCodeCamp to a friend</lebel>
+
+      <div>
+        <input type="radio" name="register" id="definitely">
+        <label for="definitely">Definitely</label>
+      </div>
+      <div>
+        <input type="radio" name="register" id="maybe">
+        <label for="maybe">Maybe</label>
+      </div>
+      <div>
+        <input type="radio" name="register" id="not-sure">
+        <label for="not-sure">Not sure</label>
+      </div>
+
+      <div>
+        <label for="like-fcc">What do you like in FCC</label>
+        <select name="register" id="like-fcc">
+          <option value="student">Select an option</option>
+          <option value="fair">Fair</option>
+          <option value="good">Good</option>
+          <option value="vgood">V.Good</option>
+          <option value="excellent">Excellent</option>
+        </select>
+      </div>
+
+      <label>Things that should improve in the future</label><br>
+      <label>(Check all that apply):</label>
+
+      <div>
+        <input type="checkbox" name="register" id="front-end">
+        <label for="front-end">Front-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" name="register" id="back-end">
+        <label for="back-end">Back-end Projects</label>
+      </div>
+      <div>
+        <input type="checkbox" name="register" id="data-visualization">
+        <label for="data-visualization">Data Visualization</label>
+      </div>
+
+  </form>
+</body>
+
+</html>
