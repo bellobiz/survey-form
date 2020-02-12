@@ -43,9 +43,7 @@ body {
     left: 15%;
 }
 
-label[for="occupation"],
-label[for="recomment"], 
-label[for="ffc"] {
+ .ml-0 {
     margin-left: 0;
 }
   
