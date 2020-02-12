@@ -5,11 +5,11 @@ body {
     padding: 0;
 }
   
-  h2 {
+ h2 {
     text-align: center;
 }
   
-  form {
+ form {
     background-color: #fafafa;
     border: 50px solid #fafafa;
     border-radius: 4px;
@@ -30,22 +30,28 @@ body {
     padding: 3px;
 }
   
-  select {
+ select {
     background-color: #eee;
     border: 1px solid #999;
     padding: 3px;
     width: 120px;
 }
   
-  .option {
+.option {
     position: relative;
     top: -50px;
     left: 15%;
 }
+
+label[for="occupation"],
+label[for="recomment"], 
+label[for="ffc"] {
+    margin-left: 0;
+}
   
-  input[type="email"],
-  input[type="text"],
-  input[type="number"] {
+input[type="email"],
+input[type="text"],
+input[type="number"] {
     width: 70%;
 }
   
