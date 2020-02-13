@@ -1,33 +1,33 @@
 body {
-    font: 400 15px/1.6 Arial, Helvetica, sans-serif;
-    background-color: teal;
+  font: 400 15px/1.6 Arial, Helvetica, sans-serif;
+  background-color: teal;
 }
 
 h1 {
-    text-align: center
+  text-align: center;
 }
 
 form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fafafa;
-    border: 50px solid #fafafa;
-    border-radius: 4px;
-    max-width: 90%;
-    width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fafafa;
+  border: 50px solid #fafafa;
+  border-radius: 4px;
+  max-width: 90%;
+  width: 85%;
 }
 
 .text-right {
-    text-align: right
+  text-align: right;
 }
 
 select {
-    background-color: #999;
-    border: 1px solid #777;
+  background-color: #eee;
+  border: 1px solid #999;
 }
 
 p {
-    text-align: center
+  text-align: center;
 }
