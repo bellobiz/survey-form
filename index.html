@@ -1,91 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src=""></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="res-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res-style.css">
 </head>
-
 <body>
-  <h2>Survey Form</h2>
-  <form action="" method="post">
-
-    <p>Let us know how we can improve freeCodeCamp</p>
-    <ul>
-      <li>
-        <label for="name">Name:</label>
-        <input type="text" name="register" id="name" placeholder="Enter your name">
-      </li>
-      <li>
-        <label for="email">Email:</label>
-        <input type="email" name="register" id="email" placeholder="Enter your Email">
-      </li>
-      <li>
-        <label for="Age">Age:</label>
-        <input type="number" name="register" id="email" placeholder="Age">
-      </li>
-    </ul>
-    
-    
-    <div class="ml-0">
-      <label for="occupation">Which option best describes your current role?</label>
-      <select name="occupation" id="occupation">
-        <option value="student">Student</option>
-        <option value="layer">Lawyer</option>
-        <option value="farmer">Farmer</option>
-        <option value="teacher">Teacher</option>
-        <option value="doctor">Doctor</option>
-      </select>
-    </div>
-
-    <label>How likely is that you would recommend</label><br>
-    <label>freeCodeCamp to a friend</lebel>
-
-      <div>
-        <input type="radio" name="register" id="definitely">
-        <label for="definitely">Definitely</label>
-      </div>
-      <div>
-        <input type="radio" name="register" id="maybe">
-        <label for="maybe">Maybe</label>
-      </div>
-      <div>
-        <input type="radio" name="register" id="not-sure">
-        <label for="not-sure">Not sure</label>
-      </div>
-
-      <div class="ml-0">
-        <label for="like-fcc">What do you like in FCC</label>
-        <select name="register" id="like-fcc">
-          <option value="student">Select an option</option>
-          <option value="fair">Fair</option>
-          <option value="good">Good</option>
-          <option value="vgood">V.Good</option>
-          <option value="excellent">Excellent</option>
-        </select>
-      </div>
-
-      <label>Things that should improve in the future</label><br>
-      <label>(Check all that apply):</label>
-
-      <div>
-        <input type="checkbox" name="register" id="front-end">
-        <label for="front-end">Front-end Projects</label>
-      </div>
-      <div>
-        <input type="checkbox" name="register" id="back-end">
-        <label for="back-end">Back-end Projects</label>
-      </div>
-      <div>
-        <input type="checkbox" name="register" id="data-visualization">
-        <label for="data-visualization">Data Visualization</label>
-      </div>
-
-  </form>
+    <h1>Survey Form</h1>
+    <form action="something.php" method="post">
+        <table>
+            <p>Let us know how we can improve freeCodeCamp</p>
+            <tbody>
+                <tr>
+                    <td class="detail">Name:</td>
+                    <td><input type="text" name="" id="" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td class="detail">Email:</td>
+                    <td><input type="email" name="" id="" placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td class="detail">Age:</td>
+                    <td><input type="number" name="" id="" placeholder="Age"></td>
+                </tr>
+                <tr>
+                    <td>Which option describes your current role?</td>
+                    <td>
+                        <select name="occupation" id="occupation">
+                            <option value="student">Student</option>
+                            <option value="layer">Lawyer</option>
+                            <option value="farmer">Farmer</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="doctor">Doctor</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>How likely is that you would recommend</td>
+                    <td>
+                        <input type="radio" name="register" id="definitely">
+                        <label for="definitely">Definitely</label>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>freeCodeCamp to a friend?</td>
+                    <td>
+                        <input type="radio" name="register" id="maybe">
+                        <label for="maybe">Maybe</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="radio" name="register" id="not-sure">
+                        <label for="not-sure">Not sure</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>What do you like most in FCC:</td>
+                    <td>
+                        <select name="occupation" id="occupation">
+                            <option value="student">Select an option</option>
+                            <option value="layer">Community</option>
+                            <option value="farmer">Lessons</option>
+                            <option value="teacher">Presentation</option>
+                            <option value="doctor">Forum</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Things that should be Improved in the future</td>
+                    <td>
+                        <input type="checkbox" name="register" id="front-end">
+                        <label for="front-end">Front-end Projects</label>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>(Check all that apply):</td>
+                    <td>
+                        <input type="checkbox" name="register" id="back-end">
+                        <label for="back-end">Back-end Projects</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="register" id="data-visual">
+                        <label for="data-visual">Data Visualization</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
 </body>
-
 </html>
