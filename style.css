@@ -19,8 +19,13 @@ form {
     width: 85%;
 }
 
-.detail {
+.text-right {
     text-align: right
+}
+
+select {
+    background-color: #eee;
+    border: 1px solid #999;
 }
 
 p {
