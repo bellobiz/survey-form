@@ -1,6 +1,6 @@
 body {
   font: 400 15px/1.6 Arial, Helvetica, sans-serif;
-  background-color: teal;
+  background-color: #98d3d3;
 }
 
 h1 {
@@ -26,6 +26,7 @@ form {
 select {
   background-color: #eee;
   border: 1px solid #999;
+  width: 140px
 }
 
 p {
