@@ -1,66 +1,28 @@
 body {
-    background-color: #099;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    font: 400 15px/1.6 Arial, Helvetica, sans-serif;
+    background-color: teal;
 }
-  
- h2 {
-    text-align: center;
+
+h1 {
+    text-align: center
 }
-  
- form {
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #fafafa;
     border: 50px solid #fafafa;
     border-radius: 4px;
     max-width: 90%;
     width: 85%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-  
-  p,
-  ul,
-  div,
-  li {
-    margin: auto;
-    width: 45%;
-    padding: 3px;
-}
-  
- select {
-    background-color: #eee;
-    border: 1px solid #999;
-    padding: 3px;
-    width: 140px;
-}
-  
-.option {
-    position: relative;
-    top: -50px;
-    left: 15%;
 }
 
- .ml-0 {
-    margin-left: 0;
+.detail {
+    text-align: right
 }
-  
-input[type="email"],
-input[type="text"],
-input[type="number"] {
-    width: 70%;
-}
-  
-input[type="checkbox"],
-input[type="radio"],
-label[for="front-end"],
-label[for="back-end"],
-label[for="data-visualization"],
-label[for="definitely"],
-label[for="maybe"],
-label[for="not-sure"] {
-    position: relative;
-    top: -40px;
+
+p {
+    text-align: center
 }
