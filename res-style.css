@@ -9,9 +9,14 @@
     border: 5px solid #fafafa;
   }
 }
+
 @media (max-width: 543px) {
   form {
     border: 0 solid #fafafa;
+  }
+  body {
+    height: 500px;
+    overflow: scroll;
   }
 }
 
@@ -19,10 +24,6 @@
   h1 {
     font-size: 20px;
     font-weight: 900;
-  }
-  body {
-    height: 500px;
-    overflow: scroll;
   }
 }
 
