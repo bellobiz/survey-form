@@ -32,7 +32,7 @@
 
 @media (max-width: 480px) and (orientation: landscape) {
   form {
-    height: 350px;
+    height: 400px;
     overflow-y: auto;
   }
 }
