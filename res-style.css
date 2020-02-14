@@ -50,3 +50,11 @@
     margi-top: 150px
   }
 }
+
+@media (max-width: 250px) {
+  form {
+    overflow: scroll;
+    height: 200px;
+    margi-top: 150px
+  }
+}
