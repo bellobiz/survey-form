@@ -53,8 +53,7 @@
 
 @media (max-width: 250px) {
   form {
-    overflow: scroll;
+    overflow-y: scroll;
     height: 200px;
-    margi-top: 150px
   }
 }
