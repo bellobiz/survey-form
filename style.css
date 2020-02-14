@@ -17,6 +17,8 @@ form {
     border-radius: 4px;
     max-width: 90%;
     width: 85%;
+    height: 400px;
+    overflow: auto;
 }
 
 .text-right {
