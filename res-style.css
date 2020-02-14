@@ -16,7 +16,7 @@
     font-weight: 900;
   }
   form {
-    height: auto;
+    height: 200px;
     overflow: scroll;
   }
 }
