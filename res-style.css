@@ -4,14 +4,20 @@
   }
 }
 
+@media (max-width: 480px) {
+  body {
+    height: 250px;
+    overflow-y: scroll;
+  }
+}
+
 @media (max-width: 543px) {
   form {
     border: 0 solid #fafafa;
-    height: auto
   }
   body {
-    height: 500px;
-    overflow: scroll;
+    height: 350px;
+    overflow-y: scroll;
   }
 }
 
