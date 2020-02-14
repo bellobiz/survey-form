@@ -44,11 +44,9 @@
 }
 
 @media (max-width: 358px) {
-  body {
-    height: 650px
-  }
   form {
     overflow: scroll;
-    height: 500px
+    height: 500px;
+    margi-top: 150px
   }
 }
