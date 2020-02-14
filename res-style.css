@@ -6,11 +6,6 @@
 
 @media (max-width: 543px) {
   form {
-    border: 5px solid #fafafa;
-  }
-}
-@media (max-width: 543px) {
-  form {
     border: 0 solid #fafafa;
   }
 }
@@ -21,8 +16,8 @@
     font-weight: 900;
   }
   form {
-    height: 500px;
-    overflow: auto;
+    height: auto;
+    overflow: scroll;
   }
 }
 
@@ -46,8 +41,8 @@
   }
 }
 
-@media (max-width: 358px) {
+/* @media (max-width: 358px) {
   form {
     overflow: scroll;
   }
-}
+} */
