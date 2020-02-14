@@ -6,13 +6,8 @@
 
 @media (max-width: 543px) {
   form {
-    border: 5px solid #fafafa;
-  }
-}
-
-@media (max-width: 543px) {
-  form {
     border: 0 solid #fafafa;
+    height: auto
   }
   body {
     height: 500px;
