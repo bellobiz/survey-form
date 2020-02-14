@@ -44,6 +44,6 @@
 
 @media (max-width: 358px) {
   form {
-    overflow-x: scroll;
+    overflow: scroll;
   }
 }
