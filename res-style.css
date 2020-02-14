@@ -20,6 +20,10 @@
     font-size: 20px;
     font-weight: 900;
   }
+  form {
+    height: 500px;
+    overflow: auto;
+  }
 }
 
 @media (max-width: 429px) {
@@ -44,7 +48,6 @@
 
 @media (max-width: 358px) {
   form {
-    overflow: scroll;
-    height: 500px;
+    height: auto;
   }
 }
