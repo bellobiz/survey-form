@@ -15,10 +15,6 @@
     font-size: 20px;
     font-weight: 900;
   }
-  form {
-    height: 200px;
-    overflow: scroll;
-  }
 }
 
 @media (max-width: 429px) {
@@ -40,9 +36,3 @@
     display: none;
   }
 }
-
-/* @media (max-width: 358px) {
-  form {
-    overflow: scroll;
-  }
-} */
