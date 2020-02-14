@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 358px) {
+@media (max-width: 358px) and (orientation: landscape) {
   form {
     overflow: scroll;
     height: 520px;
