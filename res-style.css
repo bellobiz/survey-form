@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 480px) and (orientation: landscape) {
+@media (max-width: 480px) {
   form {
     height: 450px;
     overflow-y: auto;
