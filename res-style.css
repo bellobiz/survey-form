@@ -43,13 +43,6 @@
 @media (max-width: 358px) {
   form {
     overflow: scroll;
-    height: 500px;
-  }
-}
-
-@media (max-width: 250px) {
-  form {
-    overflow-y: scroll;
-    height: 200px;
+    height: 520px;
   }
 }
