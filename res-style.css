@@ -4,13 +4,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  form {
-    height: 350px;
-    overflow-y: scroll;
-  }
-}
-
 @media (max-width: 543px) {
   form {
     border: 0 solid #fafafa;
@@ -24,10 +17,24 @@
   }
 }
 
-@media (max-width: 429px) {
-  h1 {
-    font-size: 15px;
-    font-weight: 900;
+@media (max-width: 480px) {
+  form {
+    height: 450px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 450px) {
+  form {
+    height: 200px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 350px) {
+  form {
+    height: 370px;
+    overflow-y: scroll;
   }
 }
 
@@ -46,6 +53,7 @@
 
 @media (max-width: 358px) {
   form {
-    height: auto;
+    height: 400px;
+    overflow-y: auto;
   }
 }
