@@ -17,27 +17,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  form {
-    height: 450px;
-    overflow-y: scroll;
-  }
-}
-
-@media (max-width: 450px) {
-  form {
-    height: 400px;
-    overflow-y: scroll;
-  }
-}
-
-@media (max-width: 350px) {
-  form {
-    height: 370px;
-    overflow-y: scroll;
-  }
-}
-
 @media (max-width: 429px) {
   h1 {
     font-size: 10px;
@@ -51,9 +30,9 @@
   }
 }
 
-@media (max-width: 358px) {
+@media (max-width: 480px) and (orientation: landscape) {
   form {
-    height: 400px;
+    height: 350px;
     overflow-y: auto;
   }
 }
