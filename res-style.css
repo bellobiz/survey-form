@@ -6,6 +6,11 @@
 
 @media (max-width: 543px) {
   form {
+    border: 5px solid #fafafa;
+  }
+}
+@media (max-width: 543px) {
+  form {
     border: 0 solid #fafafa;
   }
 }
@@ -13,6 +18,17 @@
 @media (max-width: 527px) {
   h1 {
     font-size: 20px;
+    font-weight: 900;
+  }
+  form {
+    height: 500px;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 429px) {
+  h1 {
+    font-size: 15px;
     font-weight: 900;
   }
 }
@@ -30,9 +46,8 @@
   }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 358px) {
   form {
-    height: 450px;
-    overflow-y: auto;
+    overflow: scroll;
   }
-} */
+}
