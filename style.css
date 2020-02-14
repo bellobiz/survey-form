@@ -18,6 +18,7 @@ form {
   max-width: 90%;
   width: 85%;
   overflow-y: auto;
+  height: 350px;
 }
 
 .text-right {
